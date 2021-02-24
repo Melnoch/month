@@ -5,32 +5,39 @@
     <title>Mois Lunaires</title>
 </head>
 <body>
-    <div class="wrapper">
-        <img id="01" src="media/pictures/01.png" onclick="play('01_audio')"/>
-        <img id="02" src="media/pictures/02.png" onclick="play('02_audio')"/>
-        <img id="03" src="media/pictures/03.png" onclick="play('03_audio')"/>
-        <img id="04" src="media/pictures/04.png" onclick="play('04_audio')"/>
-        <img id="05" src="media/pictures/05.png" onclick="play('05_audio')"/>
-        <img id="06" src="media/pictures/06.png" onclick="play('06_audio')"/>
-        <img id="07" src="media/pictures/07.png" onclick="play('07_audio')"/>
-        <img id="08" src="media/pictures/08.png" onclick="play('08_audio')"/>
-        <img id="09" src="media/pictures/09.png" onclick="play('09_audio')"/>
-        <img id="10" src="media/pictures/10.png" onclick="play('10_audio')"/>
-        <img id="11" src="media/pictures/11.png" onclick="play('11_audio')"/>
-        <img id="12" src="media/pictures/12.png" onclick="play('12_audio')"/>
+<div>
+    <img src="media/pictures/mois.jpg"/>
+    <div id="01" class="line" style="top: 820px">
+        <div class="square" onclick="play('04_audio')"></div>
+        <div class="square" onclick="play('03_audio')"></div>
+        <div class="square" onclick="play('02_audio')"></div>
+        <div class="square" onclick="play('01_audio')"></div>
     </div>
-    <audio id="01_audio" src="media/audio/01.m4a"></audio>
-    <audio id="02_audio" src="media/audio/02.m4a"></audio>
-    <audio id="03_audio" src="media/audio/03.m4a"></audio>
-    <audio id="04_audio" src="media/audio/04.m4a"></audio>
-    <audio id="05_audio" src="media/audio/05.m4a"></audio>
-    <audio id="06_audio" src="media/audio/06.m4a"></audio>
-    <audio id="07_audio" src="media/audio/07.m4a"></audio>
-    <audio id="08_audio" src="media/audio/08.m4a"></audio>
-    <audio id="09_audio" src="media/audio/09.m4a"></audio>
-    <audio id="10_audio" src="media/audio/10.m4a"></audio>
-    <audio id="11_audio" src="media/audio/11.m4a"></audio>
-    <audio id="12_audio" src="media/audio/12.m4a"></audio>
+    <div id="02" class="line" style="top: 870px">
+        <div class="square" onclick="play('08_audio')"></div>
+        <div class="square" onclick="play('07_audio')"></div>
+        <div class="square" onclick="play('06_audio')"></div>
+        <div class="square" onclick="play('05_audio')"></div>
+    </div>
+    <div id="03" class="line" style="top: 920px">
+        <div class="square" onclick="play('12_audio')"></div>
+        <div class="square" onclick="play('11_audio')"></div>
+        <div class="square" onclick="play('10_audio')"></div>
+        <div class="square" onclick="play('09_audio')"></div>
+    </div>
+</div>
+    <audio id="01_audio" src="media/audio/01.mp3"></audio>
+    <audio id="02_audio" src="media/audio/02.mp3"></audio>
+    <audio id="03_audio" src="media/audio/03.mp3"></audio>
+    <audio id="04_audio" src="media/audio/04.mp3"></audio>
+    <audio id="05_audio" src="media/audio/05.mp3"></audio>
+    <audio id="06_audio" src="media/audio/06.mp3"></audio>
+    <audio id="07_audio" src="media/audio/07.mp3"></audio>
+    <audio id="08_audio" src="media/audio/08.mp3"></audio>
+    <audio id="09_audio" src="media/audio/09.mp3"></audio>
+    <audio id="10_audio" src="media/audio/10.mp3"></audio>
+    <audio id="11_audio" src="media/audio/11.mp3"></audio>
+    <audio id="12_audio" src="media/audio/12.mp3"></audio>
 </body>
 <script>
     var audio;
